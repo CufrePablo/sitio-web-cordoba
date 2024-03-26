@@ -1,0 +1,435 @@
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+
+header {
+    background-color: #171717;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+  }
+
+
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+       
+  }
+
+a{ color: white;
+text-align: center;
+font-size: 17px;
+width: auto;}
+
+
+
+
+body{background-color: #171717;}
+
+.bodyIndex{ color: #8E806A;}
+
+
+
+ .h4Ubicada{ text-align: center;
+}
+
+.eligeAmbiente{ padding-top: 20px;}
+
+.seccionDospaginapr{ background-color: #8E806A;
+padding-bottom: 1.25rem;}
+.seccionTrespaginapr{ padding: 20px;
+margin-top: 10px;
+background-color: #8E806A;}
+
+.divImagen2{padding-top: 50px;
+width: 700px;
+display: flex;
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  justify-items: center;
+  
+
+}
+.divUrbanizacion{ font-size: 60px;
+text-align: center;}
+
+
+.comentH5{ font-size: 40px;
+text-align: center;
+margin: 1.875rem;}
+
+.imagenNaturaleza1 {
+  width: 600px;
+  height: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  justify-items: center;
+  
+}
+
+     .divNaturaleza{font-size: 60px
+        ;text-align: center;}
+
+    .comentNaturaleza{font-size: 40px;
+    text-align: center;
+padding-bottom: 150px;
+margin: 1.875rem;}
+
+
+.acercaNstr{ text-align: center;
+font-size: 30px;}
+
+
+    
+.divImagenes{ display: flex;
+justify-content: center;
+align-items: center;
+gap: 1.25rem;}
+
+
+
+
+
+
+
+
+
+
+
+h1{color: white;
+text-align: center;
+font-size: 60px;
+padding: 1.9375rem}
+h2{color: white;
+text-align: center ;font-size: 2.75rem;
+padding: 1.7rem;}
+h3{color:  white; 
+    text-align: center;
+font-size: 2.3rem;
+}
+    h4{ color:  white;
+    text-align: center;
+font-size: 1.9rem;
+padding: 2.900 rem
+15px;}
+h5{color: white;
+padding: 1.25rem;}
+h6{color: white;}
+p{color: white;
+padding: .9375rem;}
+
+
+
+
+.headerDos{padding: 1.20rem;
+    background-color: #171717;
+    display: flex;
+ }
+
+ .sectionUnopaginaseg{ border-bottom: #171717  solid 40px;}
+
+    .naturalezaDos{ font-size: 80px;}
+    .aquiVan{ font-size: 40px;}
+
+    .lasSierras{ font-size: 60px;
+    padding-top: 325px;}
+
+    .sectionDospaginaseg{border-bottom: #171717 solid 40px;}
+
+
+    .losRios{ font-size: 60px
+        ;padding-top: 320px;
+    text-align: center;}
+
+
+.estoCba{ font-size: 40px
+    ;
+text-align: center;}
+
+.facebookDos{ padding-left: 590px;}
+.twitterDos{padding-left: 580px;}
+.instagramDos{padding-left: 580px;
+padding-bottom: 20px;}
+
+.urbanoDos{ font-size: 80px;
+padding-top:100px;}
+
+.comentUrbano2{font-size: 40px;}
+
+.sectionUnopaginatre{ border-bottom: #171717 solid 50px;}
+
+.paseoDelbp{ font-size: 60px ;
+padding-top: 80px;}
+
+
+.sectionDospaginatre{ border-bottom: #171717 solid 50px;}
+
+.patioOlmos{ font-size: 60px;
+padding-top: 80px;}
+
+.sectionTrespaginatre{ border-bottom: #171717 solid 50px;}
+
+.twitterTres{ padding-left: -10px;}
+.instagramTres{ padding-left: 0px;}
+
+.sectionUnopaginacuat{ border-bottom: #171717 solid 50px;}
+.sierrasH3{ font-size: 60px;
+padding-top: 30px;}
+
+.acercaDe{ font-size: 40px;
+text-align: center;}
+.h5Qson{ font-size: 30px;
+text-align: center;}
+.comentarioH5{ font-size: 20px;
+text-align: center;}
+
+.h5Qofrecen{ font-size: 30px;
+text-align: center;}
+.comentarioQofrecen{ font-size: 20px;
+text-align: center;}
+
+.h5Adonde{ font-size: 30px;
+text-align: center;}
+.comentarioAdonde{ font-size: 20px;
+text-align: center;}
+.sectionDospaginacuat{ border-bottom: #171717 solid 50px;}
+.h4Servicios{ font-size: 40px;
+text-align: center;
+padding-top: 30px;}
+.h5Hoteleria{ font-size: 30px;
+text-align: center;}
+.h6Hoteleria{font-size: 15px;
+text-align: center;}
+.comentarioH5hoteleria{ font-size: 20px;
+text-align: center;}
+.h5Gastronomia{ font-size: 30px;
+text-align: center;}
+.h6Gastronomia{ font-size: 15px;
+text-align: center;}
+.comentarioH5gastronomia{ font-size: 20px;
+text-align: center;}
+.h5Transporte{ font-size: 30px;
+text-align: center;}
+.h6Transporte{ font-size: 15px;
+text-align: center;}
+.comentarioH5transporte{ font-size: 20px;
+text-align: center;}
+
+.h3Paseodelbp{ font-size: 60px;}
+.sectionUnopaginacinc{ border-bottom: #171717 solid 50px;}
+
+
+
+
+
+.sectionDospaginacinc{ border-bottom: #171717 solid 50px;}
+
+.h4Historia{ font-size: 40px;
+text-align: center;}
+.comentH4historia{ font-size: 20px;
+text-align: center;}
+ 
+.sectionDospaginacinc{
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  grid-template-columns: repeat(3, 1fr); /* Usa la función repeat para definir las columnas */
+  grid-template-rows: repeat(2, 1fr); /* Usa la función repeat para definir las filas */
+  gap: 10px;
+  align-items: center; /* Centra el contenido verticalmente */
+  justify-items: center; /* Centra el contenido de las celdas horizontalmente */
+  padding-bottom: 50px;
+}
+
+
+
+.h4Info{font-size: 50px;
+text-align: center;
+padding-top: 10px;}
+.h5Qes{ font-size: 40px;
+  text-align: center;}
+  .comentH5qes{ font-size: 20px;
+  text-align: center;}
+  
+  .h5Qofrece{ font-size: 40px;
+  text-align: center;}
+  .comentH5qofrece{ font-size: 20px;
+  text-align: center;}
+  
+  .h5Qlugares{ font-size: 40px;
+  text-align: center;}
+  .comentH5qlugares{ font-size: 20px;
+  text-align: center;}
+
+.gridQson{ grid-column: 1;
+grid-row: 2;}
+.gridQofrece{grid-column: 3;
+grid-row: 2;}
+.gridQvisitar{ grid-column: 2;
+grid-row: 2;}
+
+    
+@media screen and (max-width: 1440px) {
+   .divImagen2 { margin: auto;
+padding-left: 50px;
+border: 0px;}
+     .h4Ubicada{ font-size: 23px;
+    text-align: center;}
+    
+}
+    
+@media  screen and (max-width: 1024px) {
+    .h4Ubicada { padding-top: 10px
+      ;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .divImagen2{ width: 500px;
+    height: 450px;
+  margin: 0 auto;
+padding-bottom: 10px;}
+.imagenNaturaleza1{ width: 500px;
+height: 450px;}
+  
+  }
+
+  @media screen and (max-width: 550px) {
+  
+  a{ font-size: 15px;}
+  }
+
+
+  @media screen and (max-width: 522px) {
+    
+  a{ font-size: 15px;}
+
+.divImagen2 { width: 450px;
+padding-right: 40px;}
+.imagenNaturaleza1{ width: 450px;
+height: 400px;
+padding-left: 40px;}
+  }
+
+  @media screen and (max-width: 476px) {
+    
+    
+  a{ font-size: 13px;
+          }
+
+  }
+
+  @media screen and (max-width: 505px) {
+    
+    
+    a{ font-size: 13px;
+            }
+  
+    }
+
+    @media screen and (max-width: 470px) {
+.imagenNaturaleza1{ width: 400px;
+height: 380px;}
+.divImagen2{ padding-left: 0;
+padding-right: 0;
+width: 400px;
+height: 350px;}
+.divUrbanizacion{ font-size: 50px;}
+.comentH5{ font-size: 40px;}
+    .divNaturaleza{ font-size: 50px;}
+    .comentNaturaleza{font-size: 40px;}
+  
+      }
+
+       @media screen and (max-width: 460px) {
+    
+    nav a{ display: block; 
+    margin-bottom: 10px;}
+
+    a{ font-size: 12px;}
+    
+  header{ text-align: center;}
+.paseoDelbp{ font-size: 50px;}
+.patioOlmos{font-size: 50px;}
+.comentUrbano2{font-size: 30px;}
+.urbanoDos{font-size: 60px;}
+
+    }
+
+
+    
+    @media screen and (max-width: 440px) {
+    .imagenNaturaleza1{ width: 370px;
+    height: 350px;
+  text-align: center;
+margin: auto;
+padding-right: 40px;}
+.divImagen2{ width: 350px;
+height: 350px;}
+    .eligeAmbiente{ font-size: 30px;}
+    .teRecomendaremos{ font-size: 25px;
+    padding-top: 10px;}
+    .divUrbanizacion{ font-size: 40px;
+    }
+    .comentH5{ font-size: 30px;
+    }
+    .divNaturaleza{ font-size: 40px;}
+    .comentNaturaleza{ font-size: 30px;}
+      }
+
+      @media screen and (max-width: 387px) {
+    .divImagen2{ padding: 0px;
+    width: 300px;
+  height: 300px}
+    .imagenNaturaleza1{padding: 0px;
+    width: 300px;
+  height: 300px;}
+        }
+        @media screen and (max-width: 325px) {
+          a{ font-size: 10px;
+            display: block;
+                  }
+                  h1 { font: 30px;}
+                  h2{ font-size: 35px;
+                  padding: 0px;
+                padding-bottom: 10px;}  
+                h3{ font-size: 25px;
+                padding-bottom: 10px;
+              }
+.h4Ubicada{ font-size: 14px;}
+.divImagen2{ width: 250px;
+height: 250px;}
+.imagenNaturaleza1{width: 250px;
+height: 250px;}
+          }
+
+
+          
