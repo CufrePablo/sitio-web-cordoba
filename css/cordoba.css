@@ -1,435 +1,583 @@
-.roboto-regular {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-
-
-
-
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
-
-
-
 
 header {
-    background-color: #171717;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-
-  }
-
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding-left: 0px;
-    display: flex;
-    gap: 30px;
-    justify-content: center;
-  }
-
-
-  nav ul li a {
-    color: #fff;
-    text-decoration: none;
-       
-  }
-
-a{ color: white;
-text-align: center;
-font-size: 17px;
-width: auto;}
-
-
-
-
-body{background-color: #171717;}
-
-.bodyIndex{ color: #8E806A;}
-
-
-
- .h4Ubicada{ text-align: center;
+  background-color: #171717;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+header nav ul li {
+  color: #fff;
+  text-decoration: none;
+}
+header nav ul li a {
+  color: white;
+  text-align: center;
+  font-size: 17px;
+  width: auto;
+  text-decoration: none;
 }
 
-.eligeAmbiente{ padding-top: 20px;}
+body {
+  background-color: #171717;
+}
 
-.seccionDospaginapr{ background-color: #8E806A;
-padding-bottom: 1.25rem;}
-.seccionTrespaginapr{ padding: 20px;
-margin-top: 10px;
-background-color: #8E806A;}
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  padding: 1.9375rem;
+}
 
-.divImagen2{padding-top: 50px;
-width: 700px;
-display: flex;
-display: block;
+h2 {
+  color: white;
+  text-align: center;
+  font-size: 2.75rem;
+  padding: 1.7rem;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+  font-size: 2.3rem;
+}
+
+h4 {
+  color: white;
+  text-align: center;
+  font-size: 1.9rem;
+  padding: 2.9 rem 15px;
+}
+
+h5 {
+  color: white;
+  padding: 1.25rem;
+}
+
+h6 {
+  color: white;
+}
+
+p {
+  color: white;
+  padding: 0.9375rem;
+}
+
+.divImagenes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.estoCba {
+  font-size: 40px;
+  text-align: center;
+}
+
+.bodyIndex {
+  color: #8E806A;
+}
+
+.h4Ubicada {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.seccionDospaginapr {
+  background-color: #8E806A;
+  padding-bottom: 1.25rem;
+}
+.seccionDospaginapr .eligeAmbiente {
+  padding-top: 20px;
+}
+
+.seccionTrespaginapr {
+  padding: 20px;
+  background-color: #8E806A;
+}
+.seccionTrespaginapr .divImagen2 {
+  padding-top: 20px;
+  width: 650px;
+  height: 600px;
   margin-left: auto;
   margin-right: auto;
-  justify-items: center;
-  
-
+  display: block;
+  justify-content: center;
 }
-.divUrbanizacion{ font-size: 60px;
-text-align: center;}
-
-
-.comentH5{ font-size: 40px;
-text-align: center;
-margin: 1.875rem;}
-
-.imagenNaturaleza1 {
+.seccionTrespaginapr .divUrbanizacion {
+  font-size: 60px;
+  text-align: center;
+}
+.seccionTrespaginapr .comentH5 {
+  font-size: 40px;
+  text-align: center;
+  margin: 1.875rem;
+}
+.seccionTrespaginapr .imagenNaturaleza1 {
   width: 600px;
   height: 500px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   justify-items: center;
-  
+}
+.seccionTrespaginapr .divNaturaleza {
+  font-size: 60px;
+  text-align: center;
+}
+.seccionTrespaginapr .comentNaturaleza {
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 150px;
+  margin: 1.875rem;
 }
 
-     .divNaturaleza{font-size: 60px
-        ;text-align: center;}
-
-    .comentNaturaleza{font-size: 40px;
-    text-align: center;
-padding-bottom: 150px;
-margin: 1.875rem;}
-
-
-.acercaNstr{ text-align: center;
-font-size: 30px;}
-
-
-    
-.divImagenes{ display: flex;
-justify-content: center;
-align-items: center;
-gap: 1.25rem;}
-
-
-
-
-
-
-
-
-
-
-
-h1{color: white;
-text-align: center;
-font-size: 60px;
-padding: 1.9375rem}
-h2{color: white;
-text-align: center ;font-size: 2.75rem;
-padding: 1.7rem;}
-h3{color:  white; 
-    text-align: center;
-font-size: 2.3rem;
+.acercaNstr {
+  text-align: center;
+  font-size: 30px;
 }
-    h4{ color:  white;
-    text-align: center;
-font-size: 1.9rem;
-padding: 2.900 rem
-15px;}
-h5{color: white;
-padding: 1.25rem;}
-h6{color: white;}
-p{color: white;
-padding: .9375rem;}
 
+.sectionUnopaginatre {
+  border-bottom: #171717 solid 50px;
+}
+.sectionUnopaginatre .urbanoDos {
+  font-size: 80px;
+  padding-top: 100px;
+}
+.sectionUnopaginatre .comentUrbano2 {
+  font-size: 40px;
+}
 
+.sectionDospaginatre {
+  border-bottom: #171717 solid 50px;
+}
+.sectionDospaginatre .paseoDelbp {
+  font-size: 60px;
+  padding-top: 80px;
+}
+.sectionDospaginatre .breveComentpaseodelbp {
+  padding-top: 10px;
+}
 
+.sectionTrespaginatre {
+  border-bottom: #171717 solid 50px;
+}
+.sectionTrespaginatre .patioOlmos {
+  font-size: 60px;
+  padding-top: 80px;
+}
+.sectionTrespaginatre .breveComentpatioolmos {
+  padding-top: 10px;
+}
 
-.headerDos{padding: 1.20rem;
-    background-color: #171717;
-    display: flex;
- }
+.sectionUnopaginaseg {
+  border-bottom: #171717 solid 40px;
+}
+.sectionUnopaginaseg .naturalezaDos {
+  font-size: 80px;
+}
+.sectionUnopaginaseg .aquiVan {
+  font-size: 40px;
+}
 
- .sectionUnopaginaseg{ border-bottom: #171717  solid 40px;}
+.sectionDospaginaseg {
+  border-bottom: #171717 solid 40px;
+}
+.sectionDospaginaseg .lasSierras {
+  font-size: 64px;
+  padding-top: 325px;
+}
+.sectionDospaginaseg .breveComentsierras {
+  padding-top: 10px;
+}
 
-    .naturalezaDos{ font-size: 80px;}
-    .aquiVan{ font-size: 40px;}
+.sectionTrespaginaseg .losRios {
+  font-size: 64px;
+  padding-top: 320px;
+  text-align: center;
+}
+.sectionTrespaginaseg .breveComentrios {
+  padding-top: 10px;
+}
 
-    .lasSierras{ font-size: 60px;
-    padding-top: 325px;}
+.sectionUnopaginacuat {
+  border-bottom: #171717 solid 50px;
+}
+.sectionUnopaginacuat .sierrasH3 {
+  font-size: 60px;
+  padding-top: 30px;
+}
 
-    .sectionDospaginaseg{border-bottom: #171717 solid 40px;}
+.sectionDospaginacuat {
+  border-bottom: #171717 solid 50px;
+}
+.sectionDospaginacuat .acercaDe {
+  font-size: 40px;
+  text-align: center;
+}
+.sectionDospaginacuat .articuloUnopag4 .h5Qson {
+  font-size: 30px;
+  text-align: center;
+}
+.sectionDospaginacuat .articuloUnopag4 .comentarioH5 {
+  font-size: 20px;
+  text-align: center;
+}
+.sectionDospaginacuat .articuloDospagina4 .h5Qofrecen {
+  font-size: 30px;
+  text-align: center;
+}
+.sectionDospaginacuat .articuloDospagina4 .comentarioQofrecen {
+  font-size: 20px;
+  text-align: center;
+}
+.sectionDospaginacuat .articuloTrespag4 .h5Adonde {
+  font-size: 30px;
+  text-align: center;
+}
+.sectionDospaginacuat .articuloTrespag4 .comentarioAdonde {
+  font-size: 20px;
+  text-align: center;
+}
 
+.sectionTrespaginacuat .h4Servicios {
+  font-size: 40px;
+  text-align: center;
+  padding-top: 30px;
+}
+.sectionTrespaginacuat .articuloCuatropag4 .h5Hoteleria {
+  font-size: 34px;
+  text-align: center;
+}
+.sectionTrespaginacuat .articuloCuatropag4 .h6Hoteleria {
+  font-size: 15px;
+  text-align: center;
+}
+.sectionTrespaginacuat .articuloCuatropag4 .comentarioH5hoteleria {
+  font-size: 24px;
+  text-align: center;
+}
+.sectionTrespaginacuat .articuloCincopag4 .h5Gastronomia {
+  font-size: 34px;
+  text-align: center;
+}
+.sectionTrespaginacuat .articuloCincopag4 .h6Gastronomia {
+  font-size: 15px;
+  text-align: center;
+}
+.sectionTrespaginacuat .articuloCincopag4 .comentarioH5gastronomia {
+  font-size: 24px;
+  text-align: center;
+}
+.sectionTrespaginacuat .articuloSeispag4 .h5Transporte {
+  font-size: 34px;
+  text-align: center;
+}
+.sectionTrespaginacuat .articuloSeispag4 .h6Transporte {
+  font-size: 15px;
+  text-align: center;
+}
+.sectionTrespaginacuat .articuloSeispag4 .comentarioH5transporte {
+  font-size: 24px;
+  text-align: center;
+}
 
-    .losRios{ font-size: 60px
-        ;padding-top: 320px;
-    text-align: center;}
+.sectionUnopaginacinc {
+  border-bottom: #171717 solid 50px;
+}
+.sectionUnopaginacinc .h3Paseodelbp {
+  font-size: 60px;
+}
 
-
-.estoCba{ font-size: 40px
-    ;
-text-align: center;}
-
-.facebookDos{ padding-left: 590px;}
-.twitterDos{padding-left: 580px;}
-.instagramDos{padding-left: 580px;
-padding-bottom: 20px;}
-
-.urbanoDos{ font-size: 80px;
-padding-top:100px;}
-
-.comentUrbano2{font-size: 40px;}
-
-.sectionUnopaginatre{ border-bottom: #171717 solid 50px;}
-
-.paseoDelbp{ font-size: 60px ;
-padding-top: 80px;}
-
-
-.sectionDospaginatre{ border-bottom: #171717 solid 50px;}
-
-.patioOlmos{ font-size: 60px;
-padding-top: 80px;}
-
-.sectionTrespaginatre{ border-bottom: #171717 solid 50px;}
-
-.twitterTres{ padding-left: -10px;}
-.instagramTres{ padding-left: 0px;}
-
-.sectionUnopaginacuat{ border-bottom: #171717 solid 50px;}
-.sierrasH3{ font-size: 60px;
-padding-top: 30px;}
-
-.acercaDe{ font-size: 40px;
-text-align: center;}
-.h5Qson{ font-size: 30px;
-text-align: center;}
-.comentarioH5{ font-size: 20px;
-text-align: center;}
-
-.h5Qofrecen{ font-size: 30px;
-text-align: center;}
-.comentarioQofrecen{ font-size: 20px;
-text-align: center;}
-
-.h5Adonde{ font-size: 30px;
-text-align: center;}
-.comentarioAdonde{ font-size: 20px;
-text-align: center;}
-.sectionDospaginacuat{ border-bottom: #171717 solid 50px;}
-.h4Servicios{ font-size: 40px;
-text-align: center;
-padding-top: 30px;}
-.h5Hoteleria{ font-size: 30px;
-text-align: center;}
-.h6Hoteleria{font-size: 15px;
-text-align: center;}
-.comentarioH5hoteleria{ font-size: 20px;
-text-align: center;}
-.h5Gastronomia{ font-size: 30px;
-text-align: center;}
-.h6Gastronomia{ font-size: 15px;
-text-align: center;}
-.comentarioH5gastronomia{ font-size: 20px;
-text-align: center;}
-.h5Transporte{ font-size: 30px;
-text-align: center;}
-.h6Transporte{ font-size: 15px;
-text-align: center;}
-.comentarioH5transporte{ font-size: 20px;
-text-align: center;}
-
-.h3Paseodelbp{ font-size: 60px;}
-.sectionUnopaginacinc{ border-bottom: #171717 solid 50px;}
-
-
-
-
-
-.sectionDospaginacinc{ border-bottom: #171717 solid 50px;}
-
-.h4Historia{ font-size: 40px;
-text-align: center;}
-.comentH4historia{ font-size: 20px;
-text-align: center;}
- 
-.sectionDospaginacinc{
+.sectionDospaginacinc {
+  border-bottom: #171717 solid 50px;
   display: grid;
   width: 100%;
   height: 100vh;
-  grid-template-columns: repeat(3, 1fr); /* Usa la función repeat para definir las columnas */
-  grid-template-rows: repeat(2, 1fr); /* Usa la función repeat para definir las filas */
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   gap: 10px;
-  align-items: center; /* Centra el contenido verticalmente */
-  justify-items: center; /* Centra el contenido de las celdas horizontalmente */
-  padding-bottom: 50px;
+  align-items: center;
+  justify-items: center;
 }
-
-
-
-.h4Info{font-size: 50px;
-text-align: center;
-padding-top: 10px;}
-.h5Qes{ font-size: 40px;
-  text-align: center;}
-  .comentH5qes{ font-size: 20px;
-  text-align: center;}
-  
-  .h5Qofrece{ font-size: 40px;
-  text-align: center;}
-  .comentH5qofrece{ font-size: 20px;
-  text-align: center;}
-  
-  .h5Qlugares{ font-size: 40px;
-  text-align: center;}
-  .comentH5qlugares{ font-size: 20px;
-  text-align: center;}
-
-.gridQson{ grid-column: 1;
-grid-row: 2;}
-.gridQofrece{grid-column: 3;
-grid-row: 2;}
-.gridQvisitar{ grid-column: 2;
-grid-row: 2;}
-
-    
-@media screen and (max-width: 1440px) {
-   .divImagen2 { margin: auto;
-padding-left: 50px;
-border: 0px;}
-     .h4Ubicada{ font-size: 23px;
-    text-align: center;}
-    
-}
-    
-@media  screen and (max-width: 1024px) {
-    .h4Ubicada { padding-top: 10px
-      ;
-    }
-  }
-
-  @media screen and (max-width: 768px) {
-    .divImagen2{ width: 500px;
-    height: 450px;
-  margin: 0 auto;
-padding-bottom: 10px;}
-.imagenNaturaleza1{ width: 500px;
-height: 450px;}
-  
-  }
-
-  @media screen and (max-width: 550px) {
-  
-  a{ font-size: 15px;}
-  }
-
-
-  @media screen and (max-width: 522px) {
-    
-  a{ font-size: 15px;}
-
-.divImagen2 { width: 450px;
-padding-right: 40px;}
-.imagenNaturaleza1{ width: 450px;
-height: 400px;
-padding-left: 40px;}
-  }
-
-  @media screen and (max-width: 476px) {
-    
-    
-  a{ font-size: 13px;
-          }
-
-  }
-
-  @media screen and (max-width: 505px) {
-    
-    
-    a{ font-size: 13px;
-            }
-  
-    }
-
-    @media screen and (max-width: 470px) {
-.imagenNaturaleza1{ width: 400px;
-height: 380px;}
-.divImagen2{ padding-left: 0;
-padding-right: 0;
-width: 400px;
-height: 350px;}
-.divUrbanizacion{ font-size: 50px;}
-.comentH5{ font-size: 40px;}
-    .divNaturaleza{ font-size: 50px;}
-    .comentNaturaleza{font-size: 40px;}
-  
-      }
-
-       @media screen and (max-width: 460px) {
-    
-    nav a{ display: block; 
-    margin-bottom: 10px;}
-
-    a{ font-size: 12px;}
-    
-  header{ text-align: center;}
-.paseoDelbp{ font-size: 50px;}
-.patioOlmos{font-size: 50px;}
-.comentUrbano2{font-size: 30px;}
-.urbanoDos{font-size: 60px;}
-
-    }
-
-
-    
-    @media screen and (max-width: 440px) {
-    .imagenNaturaleza1{ width: 370px;
-    height: 350px;
+.sectionDospaginacinc .gridInfo .h4Info {
+  font-size: 50px;
   text-align: center;
-margin: auto;
-padding-right: 40px;}
-.divImagen2{ width: 350px;
-height: 350px;}
-    .eligeAmbiente{ font-size: 30px;}
-    .teRecomendaremos{ font-size: 25px;
-    padding-top: 10px;}
-    .divUrbanizacion{ font-size: 40px;
-    }
-    .comentH5{ font-size: 30px;
-    }
-    .divNaturaleza{ font-size: 40px;}
-    .comentNaturaleza{ font-size: 30px;}
-      }
+  padding-top: 10px;
+}
+.sectionDospaginacinc .gridQson {
+  grid-column: 1;
+  grid-row: 2;
+}
+.sectionDospaginacinc .gridQson .h5Qes {
+  font-size: 40px;
+  text-align: center;
+}
+.sectionDospaginacinc .gridQson .comentH5qes {
+  font-size: 20px;
+  text-align: center;
+}
+.sectionDospaginacinc .gridQofrece {
+  grid-column: 3;
+  grid-row: 2;
+}
+.sectionDospaginacinc .gridQofrece .h5Qofrece {
+  font-size: 40px;
+  text-align: center;
+}
+.sectionDospaginacinc .gridQofrece .comentH5qofrece {
+  font-size: 20px;
+  text-align: center;
+}
+.sectionDospaginacinc .gridQvisitar {
+  grid-column: 2;
+  grid-row: 2;
+}
+.sectionDospaginacinc .gridQvisitar .h5Qlugares {
+  font-size: 40px;
+  text-align: center;
+}
+.sectionDospaginacinc .gridQvisitar .comentH5qlugares {
+  font-size: 20px;
+  text-align: center;
+}
 
-      @media screen and (max-width: 387px) {
-    .divImagen2{ padding: 0px;
+.sectionTrespaginacinc .h4Historia {
+  font-size: 40px;
+  text-align: center;
+}
+.sectionTrespaginacinc .comentH4historia {
+  font-size: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1440px) {
+  .divImagen2 {
+    margin: auto;
+    border: 0px;
+  }
+  .h4Ubicada {
+    font-size: 23px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .h4Ubicada {
+    padding-top: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .divImagen2 {
     width: 300px;
-  height: 300px}
-    .imagenNaturaleza1{padding: 0px;
+    height: 300px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    padding-left: none;
+  }
+  .imagenNaturaleza1 {
+    width: 500px;
+    height: 450px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .divImagen2 {
+    width: 250px;
+    height: 300px;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 550px) {
+  a {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 522px) {
+  a {
+    font-size: 15px;
+  }
+  .divImagen2 {
+    width: 200px;
+    padding-right: 40px;
+  }
+  .imagenNaturaleza1 {
+    width: 450px;
+    height: 400px;
+    padding-left: 40px;
+  }
+}
+@media screen and (max-width: 476px) {
+  a {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 505px) {
+  a {
+    font-size: 14px;
+  }
+  .navUno {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 470px) {
+  .imagenNaturaleza1 {
+    width: 400px;
+    height: 380px;
+  }
+  .divImagen2 {
+    padding-left: 0;
+    padding-right: 0;
+    width: 150px;
+    height: 200px;
+  }
+  .divUrbanizacion {
+    font-size: 50px;
+  }
+  .comentH5 {
+    font-size: 40px;
+  }
+  .divNaturaleza {
+    font-size: 50px;
+  }
+  .comentNaturaleza {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 460px) {
+  nav a {
+    display: block;
+    margin-bottom: 10px;
+  }
+  a {
+    font-size: 12px;
+  }
+  header {
+    text-align: center;
+  }
+  .paseoDelbp {
+    font-size: 50px;
+  }
+  .patioOlmos {
+    font-size: 50px;
+  }
+  .comentUrbano2 {
+    font-size: 30px;
+  }
+  .urbanoDos {
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 440px) {
+  .imagenNaturaleza1 {
+    width: 370px;
+    height: 350px;
+    text-align: center;
+    margin: auto;
+    padding-right: 40px;
+  }
+  .divImagen2 {
+    width: 125px;
+    height: 150px;
+  }
+  .eligeAmbiente {
+    font-size: 30px;
+  }
+  .teRecomendaremos {
+    font-size: 25px;
+    padding-top: 10px;
+  }
+  .divUrbanizacion {
+    font-size: 40px;
+  }
+  .comentH5 {
+    font-size: 30px;
+  }
+  .divNaturaleza {
+    font-size: 40px;
+  }
+  .comentNaturaleza {
+    font-size: 30px;
+  }
+  .naturalezaDos {
+    font-size: 60px;
+  }
+  .aquiVan {
+    font-size: 34px;
+  }
+}
+@media screen and (max-width: 387px) {
+  nav li {
+    margin: 0;
+    padding-left: 0px;
+    display: block;
+  }
+  .divImagen2 {
+    padding: 0px;
+    width: 100px;
+    height: 125px;
+  }
+  .imagenNaturaleza1 {
+    padding: 0px;
     width: 300px;
-  height: 300px;}
-        }
-        @media screen and (max-width: 325px) {
-          a{ font-size: 10px;
-            display: block;
-                  }
-                  h1 { font: 30px;}
-                  h2{ font-size: 35px;
-                  padding: 0px;
-                padding-bottom: 10px;}  
-                h3{ font-size: 25px;
-                padding-bottom: 10px;
-              }
-.h4Ubicada{ font-size: 14px;}
-.divImagen2{ width: 250px;
-height: 250px;}
-.imagenNaturaleza1{width: 250px;
-height: 250px;}
-          }
+    height: 300px;
+  }
+  .losRios {
+    font-size: 54px;
+  }
+  .lasSierras {
+    font-size: 54px;
+  }
+  .divImagenes img {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .naturalezaDos {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 325px) {
+  a {
+    font-size: 10px;
+    display: block;
+  }
+  h1 {
+    font: 30px;
+  }
+  h2 {
+    font-size: 35px;
+    padding: 0px;
+    padding-bottom: 10px;
+  }
+  h3 {
+    font-size: 25px;
+    padding-bottom: 10px;
+  }
+  .h4Ubicada {
+    font-size: 14px;
+  }
+  .divImagen2 {
+    width: 75px;
+    height: 100px;
+  }
+  .imagenNaturaleza1 {
+    width: 250px;
+    height: 250px;
+  }
+}
 
-
-          
+/*# sourceMappingURL=cordoba.css.map */

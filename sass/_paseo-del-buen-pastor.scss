@@ -1,0 +1,76 @@
+
+
+.sectionUnopaginacinc{ border-bottom: #171717 solid 50px;
+  .h3Paseodelbp{ font-size: 60px;}
+}
+
+.sectionDospaginacinc{ border-bottom: #171717 solid 50px;
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-template-rows: repeat(2, 1fr); 
+  gap: 10px;
+  align-items: center; 
+  justify-items: center; 
+
+  .gridInfo{
+    .h4Info{font-size: 50px;
+text-align: center;
+padding-top: 10px;}
+  }
+
+.gridQson{ grid-column: 1;
+grid-row: 2;
+
+.h5Qes{ font-size: 40px;
+  text-align: center;}
+  .comentH5qes{ font-size: 20px;
+  text-align: center;}
+
+}
+
+.gridQofrece{grid-column: 3;
+grid-row: 2;
+
+  .h5Qofrece{ font-size: 40px;
+  text-align: center;}
+  .comentH5qofrece{ font-size: 20px;
+  text-align: center;}
+}
+
+.gridQvisitar{grid-column: 2;
+grid-row: 2;
+
+.h5Qlugares{ font-size: 40px;
+  text-align: center;}
+  .comentH5qlugares{ font-size: 20px;
+  text-align: center;}
+
+}
+
+}
+
+.sectionTrespaginacinc{
+  .h4Historia{ font-size: 40px;
+    text-align: center;}
+    .comentH4historia{ font-size: 20px;
+    text-align: center;}
+}
+
+
+
+
+ 
+
+
+
+
+
+
+  
+  
+  
+  
+
+
