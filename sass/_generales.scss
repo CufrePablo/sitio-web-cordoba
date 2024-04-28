@@ -13,30 +13,44 @@ $colorfont: black;
 
 
 
-header {
-    background-color: #171717;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    nav ul {
-      list-style: none;
-      margin: 0;
-      padding-left: 0px;
-      display: flex;
-      gap: 30px;
-      justify-content: center;
-li{color: #fff;
-  text-decoration: none;
-a{color: white;
-  text-align: center;
-  font-size: 17px;
-  width: auto;
-  text-decoration: none;
+.nav-wrapper{
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem;
 }
-}
-    }
+
+nav{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #171717;
+  padding: 1rem 1.5rem;
+  border-radius: 0.3rem;
+  box-shadow: 5px 5px 5px grey;
+
+  .logo{
+    font-weight: 700;
   }
-  
+
+  ul{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+}
+
+
+nav #toggle, nav label{
+  display: none;
+}
+
 
 
 body{background-color: #171717;}
